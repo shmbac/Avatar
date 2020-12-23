@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import './Avatar.css';
-import img from "../Assets/Shmulik.jpg";
+import img from '../Images/Shmuel_Bachar_Profile_Image.jpg'
 
 
 class Avatar extends Component{
@@ -17,7 +17,7 @@ class Avatar extends Component{
           <img 
             src={img} 
             width={width} 
-            alt="Shmulik" 
+            alt="ShmulikProfileImage" 
             className={shape} />
       </div>
     );
